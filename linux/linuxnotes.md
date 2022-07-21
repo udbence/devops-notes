@@ -2,29 +2,29 @@
 
 ## A Linux könytárszerkezete:
 
-/bin: felhasználó által indítható alap és telepített programok
-/boot: grub2 és a kernel fájljait tartalmazza
-/dev: eszközök eszközfájljai, indításkor generálódnak kikapcsolás után üres
-/etc: konfigurációs fájlok
-/lib: közös fájlok mint windowsban a dll fájlok
-/mnt: ideiglenesen csatolt eszközökhöz kell például pendrive
-/media: mint az /mnt pl, CD/ISO csatoláshoz
-/opt: néhány program ide települ - főleg forrásból telepített
-/proc: kernelváltozókat tartalmazza futásidőben
-/root: rendszergazda könytára
-/run: futó folyamatok adatait tartalmazza futásidőben
-/srv: szerverfolyamatok megosztásait szokás ide rakni
-/sys: eszközök adatait tartalmazza futásidőben
-/usr: dokumentációk és egyéb architektúra független adatok tára
-/var: logok és ideiglenes tárolás, sok írás történik ide
-Könyvtár műveletek
-pwd - print working directory
-cd - change directory
-cd / - root könytárba lépés
-cd - home könyvtárba lépés
-cd ~ - szintén
-cd .. egy szinttel feljebb lépés
-Útvonalak elérése: - relatív - a kiindulási ponttól számítva - abszolút - / (root) kiindulási ponttól számítva
+/bin: felhasználó által indítható alap és telepített programok 
+/boot: grub2 és a kernel fájljait tartalmazza 
+/dev: eszközök eszközfájljai, indításkor generálódnak kikapcsolás után üres 
+/etc: konfigurációs fájlok 
+/lib: közös fájlok mint windowsban a dll fájlok 
+/mnt: ideiglenesen csatolt eszközökhöz kell például pendrive 
+/media: mint az /mnt pl, CD/ISO csatoláshoz 
+/opt: néhány program ide települ - főleg forrásból telepített 
+/proc: kernelváltozókat tartalmazza futásidőben 
+/root: rendszergazda könytára 
+/run: futó folyamatok adatait tartalmazza futásidőben 
+/srv: szerverfolyamatok megosztásait szokás ide rakni 
+/sys: eszközök adatait tartalmazza futásidőben 
+/usr: dokumentációk és egyéb architektúra független adatok tára 
+/var: logok és ideiglenes tárolás, sok írás történik ide 
+**Könyvtár műveletek**
+pwd - print working directory 
+cd - change directory 
+cd / - root könytárba lépés 
+cd - home könyvtárba lépés 
+cd ~ - szintén 
+cd .. egy szinttel feljebb lépés 
+Útvonalak elérése: - relatív - a kiindulási ponttól számítva - abszolút - / (root) kiindulási ponttól számítva 
 
 man - manual, segítség a parancsok használtában és paraméter listájában
 
