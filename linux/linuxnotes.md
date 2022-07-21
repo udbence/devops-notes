@@ -16,7 +16,8 @@
 /srv: szerverfolyamatok megosztásait szokás ide rakni 
 /sys: eszközök adatait tartalmazza futásidőben 
 /usr: dokumentációk és egyéb architektúra független adatok tára 
-/var: logok és ideiglenes tárolás, sok írás történik ide 
+/var: logok és ideiglenes tárolás, sok írás történik ide
+
 **Könyvtár műveletek**
 pwd - print working directory 
 cd - change directory 
