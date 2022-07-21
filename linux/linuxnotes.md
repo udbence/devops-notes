@@ -1,6 +1,7 @@
 # Linux alapok
 
 ## A Linux könytárszerkezete:
+
 /bin: felhasználó által indítható alap és telepített programok
 /boot: grub2 és a kernel fájljait tartalmazza
 /dev: eszközök eszközfájljai, indításkor generálódnak kikapcsolás után üres
